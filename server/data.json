@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Amina Rahman",
+      "username": "amina",
+      "password": "scrypt$a1690248f734c137a49e572328c4ce96$0312175d7728372f16687fd01a49489daaed012e5fd8a29c736f1981200028d96083fd76c2080600ae59462dda3827dfbc8ce3e475dba21c5c77db2d51a202a4",
+      "email": "amina@vub.ac.be",
+      "university": "VUB",
+      "department": "Computer Science",
+      "role": "Publisher"
+    },
+    {
+      "id": 2,
+      "name": "Omar Haddad",
+      "username": "omar",
+      "password": "scrypt$cf81ab49eac1a9c6a2d3e29b95963fc6$dc5b410cf06a850e80775e6c53d1751d686e626a69351fa77720da936ca6d9b255b008121c5b56d4d1449adff768fc283e1983040f94339d002d52f5014bf3c2",
+      "email": "omar@vub.ac.be",
+      "university": "VUB",
+      "department": "Computer Science",
+      "role": "Moderator"
+    },
+    {
+      "id": 3,
+      "name": "Nora Janssens",
+      "username": "nora",
+      "password": "scrypt$f10fe8c8b277316ac77b43733ff2bbad$35651193a8e0eb9510f3dd4cc46e2658000e7a95ce11c99d6847620b3647e162a8c8d359d0abc5f5720a1264a439338629b8777935cae4d4d1f36a276af31705",
+      "email": "nora@vub.ac.be",
+      "university": "VUB",
+      "department": "Linguistics",
+      "role": "Member"
+    },
+    {
+      "id": 4,
+      "name": "System Administrator",
+      "username": "admin",
+      "password": "scrypt$4c83837051ec0a580cc2139c2eee919c$2e3334fb021dbf55508f18f31bf89f5d051a2b6e376d445c651e464a86d7d5290d546881599fe47f0536496b18c632df66cea5dceb067da056b89d7d5e6992fc",
+      "email": "admin@vub.ac.be",
+      "university": "VUB",
+      "department": "Research Office",
+      "role": "Administrator"
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Trustworthy Search in Digital Libraries",
+      "author": "Amina Rahman",
+      "department": "Computer Science",
+      "year": 2024,
+      "abstract": "A practical study of transparent ranking, query interpretation and user trust in academic search systems.",
+      "owner": "amina",
+      "references": [
+        "Boolean retrieval revisited",
+        "Human-centred information access"
+      ],
+      "format": "PDF"
+    },
+    {
+      "id": 2,
+      "title": "Language, Metadata and Scholarly Identity",
+      "author": "Nora Janssens",
+      "department": "Linguistics",
+      "year": 2022,
+      "abstract": "How normalized author and institution metadata improves discovery across publication repositories.",
+      "owner": "nora",
+      "references": [
+        "Names in digital archives"
+      ],
+      "format": "PDF"
+    },
+    {
+      "id": 3,
+      "title": "Departmental Knowledge Graphs",
+      "author": "Amina Rahman",
+      "department": "Computer Science",
+      "year": 2021,
+      "abstract": "A model for connecting publications, references and research groups without losing provenance.",
+      "owner": "amina",
+      "references": [
+        "Trustworthy Search in Digital Libraries"
+      ],
+      "format": "PS"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Software Engineering Group",
+      "department": "Computer Science",
+      "members": 2
+    },
+    {
+      "id": 2,
+      "name": "Digital Humanities Lab",
+      "department": "Linguistics",
+      "members": 1
+    }
+  ]
+}
